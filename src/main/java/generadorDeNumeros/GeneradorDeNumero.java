@@ -1,8 +1,6 @@
 package generadorDeNumeros;
 
-public interface GeneradorDeNumero {
-    int lanzar();
+public abstract class GeneradorDeNumero {
 
-    void reciboElNumero(int unNumero);
-
+    public abstract int generarNumeroHasta(int unNumeroLimite);
 }
