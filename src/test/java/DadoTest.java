@@ -16,7 +16,7 @@ public class DadoTest {
 
     private void assertBetween(int numeroMinimo, int numeroMaximo, int numeroAComparar) {
         Assert.assertTrue(numeroMinimo <= numeroAComparar);
-        Assert.assertTrue( numeroMaximo >= numeroAComparar);
+        Assert.assertTrue(numeroMaximo >= numeroAComparar);
     }
 
     @Rule
